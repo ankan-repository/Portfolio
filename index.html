@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ankan Pal — AI/ML Engineer & Generative AI Developer. Designing and deploying production-grade LLM systems, RAG architectures, and multi-agent frameworks at IEMA R&D." />
+  <meta name="keywords" content="Ankan Pal, AI Engineer, ML Engineer, Generative AI, LLM, RAG, IEMA, Kolkata" />
+  <meta property="og:title" content="Ankan Pal | AI/ML Engineer & GenAI Developer" />
+  <meta property="og:description" content="Production-grade LLM systems, RAG architectures, multi-agent frameworks. Building the future of AI." />
+  <title>Ankan Pal | AI/ML Engineer & GenAI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Neural Network Background Canvas -->
+  <canvas id="neural-canvas"></canvas>
+
+  <!-- ─── NAVIGATION ──────────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-logo">&lt;ankan.pal /&gt;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about" id="nav-about">About</a></li>
+      <li><a href="#skills" id="nav-skills">Skills</a></li>
+      <li><a href="#experience" id="nav-experience">Experience</a></li>
+      <li><a href="#projects" id="nav-projects">Projects</a></li>
+      <li><a href="#education" id="nav-education">Education</a></li>
+      <li><a href="#contact" class="nav-cta" id="nav-contact">Hire Me</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ───────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg-glow glow-1"></div>
+    <div class="hero-bg-glow glow-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left: Text -->
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            Available for Opportunities
+          </div>
+
+          <h1 class="hero-name">
+            <span class="first">ANKAN</span><br/>
+            <span class="last">PAL</span>
+          </h1>
+
+          <div class="hero-titles">
+            <span class="hero-title-chip">AI/ML Engineer</span>
+            <span class="hero-title-chip">Generative AI Developer</span>
+            <span class="hero-title-chip">LLM Systems Architect</span>
+          </div>
+
+          <p class="hero-desc">
+            Results-driven AI engineer with <strong>15+ months</strong> of hands-on industry experience designing and deploying <strong>production-grade Generative AI systems</strong>, LLM pipelines, RAG architectures, and multi-agent frameworks on GCP.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn-primary" id="hero-view-work">
+              ◈ View My Work
+            </a>
+            <a href="#contact" class="btn-secondary" id="hero-contact">
+              ✉ Get In Touch
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-num">15+</div>
+              <div class="hero-stat-label">Months Experience</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">95%+</div>
+              <div class="hero-stat-label">Model Accuracy</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-num">99.5%</div>
+              <div class="hero-stat-label">Uptime Achieved</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Visual Orb -->
+        <div class="hero-visual">
+          <div class="ai-orb-container">
+            <div class="ai-orb"></div>
+            <div class="orb-ring"></div>
+            <div class="orb-ring"></div>
+            <div class="orb-ring"></div>
+            <div class="orb-core">
+              <div class="orb-text">
+                <span class="orb-ai">AI</span>
+                <span class="orb-subtitle">Systems Architect</span>
+              </div>
+            </div>
+
+            <!-- Floating tech chips -->
+            <div class="tech-chip tc-1">⚡ LangChain</div>
+            <div class="tech-chip tc-2">🧠 Vertex AI</div>
+            <div class="tech-chip tc-3">🔗 RAG</div>
+            <div class="tech-chip tc-4">☁️ GCP</div>
+            <div class="tech-chip tc-5">🤖 Multi-Agent</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── ABOUT ──────────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <div class="section-tag">About Me</div>
+          <h2 class="section-title">Building the <span class="highlight">Future of AI</span></h2>
+          <p>
+            I'm an AI/ML engineer specializing in <strong>production-grade Generative AI</strong>. At IEMA Research &amp; Development, I architect end-to-end LLM-powered systems integrated with 4+ multi-model AI services — deployed on GCP with <strong>99.5%+ uptime</strong>.
+          </p>
+          <p>
+            From <strong>intelligent coding assistants</strong> to industrial predictive maintenance systems monitoring 50–140 sensors across 5–7 plants, I've built AI products that work at scale in the real world.
+          </p>
+          <p>
+            Skilled in the full stack: from model fine-tuning and RAG architectures to cloud deployment and production monitoring — I bridge the gap between research and real-world AI.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon">🏭</div>
+              <h4>Industrial AI</h4>
+              <p>5–7 plants, 50–140 sensors monitored in real-time</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">🤖</div>
+              <h4>Multi-Model LLM</h4>
+              <p>ChatGPT, Gemini, Perplexity, Sonar unified</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">☁️</div>
+              <h4>Cloud-Native</h4>
+              <p>GCP Vertex AI &amp; Cloud Run at production scale</p>
+            </div>
+            <div class="highlight-card">
+              <div class="highlight-icon">📐</div>
+              <h4>Architecture</h4>
+              <p>End-to-end from requirements to deployment</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats reveal-right">
+          <div class="stat-card reveal delay-1">
+            <span class="number" data-target="95">0</span>%+
+            <div class="label">Model Accuracy</div>
+          </div>
+          <div class="stat-card reveal delay-2">
+            <span class="number" data-target="99">0</span>.5%
+            <div class="label">System Uptime</div>
+          </div>
+          <div class="stat-card reveal delay-3">
+            <span class="number" data-target="35">0</span>%
+            <div class="label">Latency Reduced</div>
+          </div>
+          <div class="stat-card reveal delay-4">
+            <span class="number" data-target="5">0</span>+
+            <div class="label">AI Models Integrated</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SKILLS ─────────────────────────────────────────── -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Technical Skills</div>
+        <h2 class="section-title">My <span class="highlight">Tech Arsenal</span></h2>
+        <p class="section-subtitle">
+          Cutting-edge tools and frameworks I use to build production-grade AI systems.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🧠</div>
+            <div>
+              <div class="skill-cat-title">GenAI &amp; LLMs</div>
+              <div class="skill-cat-sub">Large Language Models &amp; Pipelines</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">LangGraph</span>
+            <span class="skill-tag">OpenAI GPT-4o</span>
+            <span class="skill-tag">Google Gemini</span>
+            <span class="skill-tag">Vertex AI</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">Fine-tuning</span>
+            <span class="skill-tag">RAG</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🔍</div>
+            <div>
+              <div class="skill-cat-title">Vector &amp; Search</div>
+              <div class="skill-cat-sub">Retrieval Augmented Generation</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">RAG Architectures</span>
+            <span class="skill-tag">Vector Databases</span>
+            <span class="skill-tag">Semantic Search</span>
+            <span class="skill-tag">Embedding Models</span>
+            <span class="skill-tag">FAISS</span>
+            <span class="skill-tag">ChromaDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">⚡</div>
+            <div>
+              <div class="skill-cat-title">ML &amp; Deep Learning</div>
+              <div class="skill-cat-sub">Models &amp; Neural Networks</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">CNN-LSTM</span>
+            <span class="skill-tag">VAE</span>
+            <span class="skill-tag">Time Series</span>
+            <span class="skill-tag">Anomaly Detection</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Computer Vision</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-1">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">☁️</div>
+            <div>
+              <div class="skill-cat-title">Cloud &amp; Backend</div>
+              <div class="skill-cat-sub">Infrastructure &amp; APIs</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">GCP Vertex AI</span>
+            <span class="skill-tag">Cloud Run</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Multi-model Integration</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-2">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🤖</div>
+            <div>
+              <div class="skill-cat-title">AI Agents</div>
+              <div class="skill-cat-sub">Autonomous Workflow Systems</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Multi-agent Pipelines</span>
+            <span class="skill-tag">Tool-use Agents</span>
+            <span class="skill-tag">Function Calling</span>
+            <span class="skill-tag">Workflow Design</span>
+            <span class="skill-tag">OpenAI API</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-3">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🎨</div>
+            <div>
+              <div class="skill-cat-title">Multimodal AI</div>
+              <div class="skill-cat-sub">Vision, Audio &amp; Generation</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Image Generation</span>
+            <span class="skill-tag">Video Generation</span>
+            <span class="skill-tag">Speech Recognition</span>
+            <span class="skill-tag">Face Detection</span>
+            <span class="skill-tag">Pose Estimation</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal delay-4">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📊</div>
+            <div>
+              <div class="skill-cat-title">Data &amp; Sensors</div>
+              <div class="skill-cat-sub">Industrial IoT &amp; Analytics</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Industrial IoT</span>
+            <span class="skill-tag">Multi-sensor Pipelines</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Sensor Physics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── EXPERIENCE ─────────────────────────────────────── -->
+  <section id="experience">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Career Journey</div>
+        <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+        <p class="section-subtitle">
+          Building production AI at IEMA Research &amp; Development, from intern to System Analyst in under a year.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <!-- Current Role -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-date">Oct 2025 — Present</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">System Analyst – AI/ML</div>
+                <div class="timeline-company">IEMA Research &amp; Development Pvt. Ltd., Kolkata</div>
+              </div>
+              <span class="timeline-badge badge-current">● Current</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Architect and own end-to-end LLM-powered backend systems integrated with 4+ multi-model AI services (ChatGPT, Gemini, Perplexity, Sonar), deployed on GCP with production-scale reliability and 99.5%+ uptime.</li>
+              <li>Define technical requirements and system design documentation for new Generative AI product features, collaborating with product and engineering teams to reduce delivery ambiguity and accelerate sprint velocity.</li>
+              <li>Oversee model deployment pipelines on GCP (Vertex AI), ensuring production stability, horizontal scalability, and real-time performance benchmarking across all AI inference endpoints.</li>
+              <li>Drive engineering excellence through structured code reviews, enforcing clean architecture principles and software engineering best practices across the AI/ML codebase.</li>
+              <li>Mentor junior engineers and interns on LLM integration, RAG system design, and prompt engineering patterns; established internal documentation standards for AI system specifications.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Intern Role -->
+        <div class="timeline-item reveal delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Mar 2025 — Sep 2025</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">AI Engineer Intern</div>
+                <div class="timeline-company">IEMA Research &amp; Development Pvt. Ltd., Kolkata</div>
+              </div>
+              <span class="timeline-badge badge-intern">Promoted in 6 months</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Designed and implemented end-to-end LLM pipelines using LangChain and RAG for real-time intelligent applications, reducing average query response latency by 35%.</li>
+              <li>Built and deployed production-grade FastAPI backends for chatbot and AI assistant interactions, handling production-scale API traffic on GCP Cloud Run with sub-200ms median response time.</li>
+              <li>Built a unified multi-model chatbot integrating ChatGPT, Gemini, Perplexity, and Sonar under a single interface, enabling seamless model-switching without front-end changes.</li>
+              <li>Implemented a real-time credit deduction and billing engine, a multi-signal user feedback loop, and multilingual transliteration for 5+ Indian languages in the AI coding assistant backend.</li>
+              <li>Developed ML models for data analysis and predictive insights; iterated on model quality using user feedback telemetry to reduce error rates and improve response relevance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── PROJECTS ───────────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Key Projects</div>
+        <h2 class="section-title">What I've <span class="highlight">Built</span></h2>
+        <p class="section-subtitle">
+          Production-grade AI systems deployed at scale — from multi-model coding assistants to industrial predictive maintenance.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal delay-1">
+          <div class="project-header">
+            <div class="project-icon">🤖</div>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-name">iema.ai – AI Coding Assistant</div>
+          <div class="project-org">◆ IEMA R&D</div>
+          <p class="project-desc">
+            Production-grade backend powering a multi-model AI coding assistant platform. Designed for scalability, provider abstraction, and real-time performance on GCP infrastructure with sub-200ms median API response time.
+          </p>
+          <ul class="project-features">
+            <li>
+              <strong>Multi-model Orchestration</strong>
+              Unified backend integrating ChatGPT, Gemini (Vertex AI) — enabling hot-swap of AI providers without front-end changes.
+            </li>
+            <li>
+              <strong>GenAI Pipelines</strong>
+              AI image &amp; video generation pipelines using state-of-the-art generative models, deployed on GCP &amp; integrated into the live product.
+            </li>
+            <li>
+              <strong>Multilingual Support</strong>
+              Real-time phonetic transliteration for 5+ Indian languages (Bengali, Hindi, Tamil, Telugu, Kannada) expanding platform accessibility.
+            </li>
+            <li>
+              <strong>Billing Engine</strong>
+              Token-based credit deduction engine with real-time balance tracking and a multi-signal feedback loop for iterative model quality improvements.
+            </li>
+          </ul>
+          <div class="project-tech">
+            <span>LangChain</span>
+            <span>GPT-4o</span>
+            <span>Gemini</span>
+            <span>Vertex AI</span>
+            <span>FastAPI</span>
+            <span>GCP Cloud Run</span>
+            <span>Firebase</span>
+            <span>RAG</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal delay-2">
+          <div class="project-header">
+            <div class="project-icon">🏭</div>
+            <span class="project-year">2025</span>
+          </div>
+          <div class="project-name">Predictive Maintenance &amp; Asset Health Monitoring</div>
+          <div class="project-org">◆ IEMA R&D</div>
+          <p class="project-desc">
+            End-to-end industrial predictive maintenance platform deployed across 5–7 manufacturing plants, monitoring 50–140 sensors per deployment for real-time equipment health, anomaly detection, fault classification, and RUL forecasting.
+          </p>
+          <ul class="project-features">
+            <li>
+              <strong>Multi-Plant Deployment</strong>
+              Deployed across 5–7 industrial plants with 10–20 sensors per motor; calibrated per plant with site-specific sensor weightings.
+            </li>
+            <li>
+              <strong>RUL Forecasting Model</strong>
+              95%+ RUL prediction accuracy with plant-specific models ensuring robust performance across varying industrial environments.
+            </li>
+            <li>
+              <strong>Anomaly Detection Engine</strong>
+              Multi-threshold detection pipeline with gap-merging and fault period reporting, significantly reducing false positive alerts.
+            </li>
+            <li>
+              <strong>Analytics Dashboard</strong>
+              Real-time interactive dashboard visualising live sensor trends, RUL trajectory, anomaly events, and health zone transitions.
+            </li>
+          </ul>
+          <div class="project-tech">
+            <span>CNN-LSTM</span>
+            <span>VAE</span>
+            <span>TensorFlow</span>
+            <span>Industrial IoT</span>
+            <span>FastAPI</span>
+            <span>GCP</span>
+            <span>Pandas</span>
+            <span>Time Series</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── EDUCATION ──────────────────────────────────────── -->
+  <section id="education">
+    <div class="container">
+      <div class="reveal">
+        <div class="section-tag">Education &amp; Certifications</div>
+        <h2 class="section-title">Academic <span class="highlight">Background</span></h2>
+        <p class="section-subtitle">
+          Strong academic foundation with consistent excellence, complemented by industry-recognized certifications.
+        </p>
+      </div>
+
+      <div class="edu-cert-grid">
+        <!-- Education -->
+        <div>
+          <h3 style="font-size:1.1rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1.5rem; font-family:var(--font-mono);">Education</h3>
+          <div class="edu-list">
+            <div class="edu-card reveal delay-1">
+              <div class="edu-icon">🎓</div>
+              <div>
+                <div class="edu-degree">B.Tech — Computer Science &amp; Engineering</div>
+                <div class="edu-school">University of Engineering &amp; Management (UEM), Kolkata</div>
+                <div class="edu-meta">
+                  <span>CGPA: 8.72 / 10</span>
+                  <span>2021 – 2025</span>
+                </div>
+              </div>
+            </div>
+            <div class="edu-card reveal delay-2">
+              <div class="edu-icon">📚</div>
+              <div>
+                <div class="edu-degree">12th Standard — ISC Science</div>
+                <div class="edu-school">St. Stephen's School, Dum Dum, Kolkata</div>
+                <div class="edu-meta">
+                  <span>85%</span>
+                  <span>Passed 2021</span>
+                </div>
+              </div>
+            </div>
+            <div class="edu-card reveal delay-3">
+              <div class="edu-icon">🏫</div>
+              <div>
+                <div class="edu-degree">10th Standard — ICSE</div>
+                <div class="edu-school">St. Stephen's School, Dum Dum, Kolkata</div>
+                <div class="edu-meta">
+                  <span>80%</span>
+                  <span>Passed 2019</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div>
+          <h3 style="font-size:1.1rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:1.5rem; font-family:var(--font-mono);">Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-card reveal delay-1">
+              <div class="cert-icon">🏆</div>
+              <div>
+                <div class="cert-name">Generative AI Certification</div>
+                <div class="cert-issuer">GUVI — Google for Developers</div>
+              </div>
+            </div>
+            <div class="cert-card reveal delay-2">
+              <div class="cert-icon">🎯</div>
+              <div>
+                <div class="cert-name">Enhancing Soft Skills and Personality</div>
+                <div class="cert-issuer">NPTEL — IIT Kharagpur</div>
+              </div>
+            </div>
+            <div class="cert-card reveal delay-3">
+              <div class="cert-icon">💡</div>
+              <div>
+                <div class="cert-name">Developing Soft Skills and Personality</div>
+                <div class="cert-issuer">NPTEL — IIT Kharagpur</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extra info card -->
+          <div class="stat-card reveal delay-4" style="margin-top:1.25rem; text-align:left; padding:1.5rem;">
+            <div style="font-family:var(--font-mono); font-size:0.7rem; color:var(--accent-cyan); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:0.75rem;">📍 Location</div>
+            <div style="font-size:1rem; font-weight:600; color:var(--text-primary);">Kolkata, West Bengal, India</div>
+            <div style="font-size:0.85rem; color:var(--text-muted); margin-top:0.25rem;">Open to Remote &amp; Relocation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── CONTACT ────────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrapper reveal">
+        <div class="section-tag" style="justify-content:center;">Let's Connect</div>
+        <h2 class="contact-title">
+          Ready to Build<br/>
+          <span class="highlight">Something Incredible?</span>
+        </h2>
+        <p class="contact-desc">
+          Whether you're looking for a Generative AI engineer, want to discuss LLM architectures, or have an exciting AI problem to solve — I'd love to hear from you.
+        </p>
+
+        <div class="contact-cards">
+          <a href="mailto:ankanp595@gmail.com" class="contact-card" id="contact-email">
+            <span class="contact-card-icon">✉️</span>
+            ankanp595@gmail.com
+          </a>
+          <a href="tel:+917003053064" class="contact-card" id="contact-phone">
+            <span class="contact-card-icon">📱</span>
+            +91 7003053064
+          </a>
+          <a href="https://linkedin.com/in/ankan-pal-b4518241" target="_blank" rel="noopener noreferrer" class="contact-card" id="contact-linkedin">
+            <span class="contact-card-icon">💼</span>
+            LinkedIn Profile
+          </a>
+          <a href="#" class="contact-card" id="contact-location">
+            <span class="contact-card-icon">📍</span>
+            Kolkata, India
+          </a>
+        </div>
+
+        <a href="mailto:ankanp595@gmail.com" class="contact-big-btn" id="contact-cta">
+          ✉ Send Me a Message
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">&lt;ankan.pal /&gt;</div>
+    <div class="footer-text">
+      Designed &amp; built with ♥ by Ankan Pal · AI/ML Engineer @ IEMA R&amp;D
+    </div>
+    <ul class="footer-links">
+      <li><a href="mailto:ankanp595@gmail.com" id="footer-email">Email</a></li>
+      <li><a href="https://linkedin.com/in/ankan-pal-b4518241" target="_blank" rel="noopener noreferrer" id="footer-linkedin">LinkedIn</a></li>
+      <li><a href="#hero" id="footer-top">Back to Top ↑</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
