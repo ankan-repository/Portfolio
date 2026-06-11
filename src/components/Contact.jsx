@@ -14,8 +14,8 @@ const contactItems = [
   {
     icon: <HiPhone className="w-5 h-5" />,
     label: 'Phone',
-    value: '+91 7003053064',
-    href: 'tel:+917003053064',
+    value: '+91 7003503054',
+    href: 'tel:+917003503054',
     color: 'hover:border-emerald-500/50 hover:bg-emerald-500/5 hover:text-emerald-300',
   },
   {
